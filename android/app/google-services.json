@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "830378510376",
+    "firebase_url": "https://cardmaker-95ba3-default-rtdb.firebaseio.com",
+    "project_id": "cardmaker-95ba3",
+    "storage_bucket": "cardmaker-95ba3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830378510376:android:22cff5a52f77d25211cd1d",
+        "android_client_info": {
+          "package_name": "com.example.card_maker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830378510376-o3aejhl8dsefa9pjv41hlkjt44rcbrht.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.card_maker",
+            "certificate_hash": "ed41f3193144c62612c5d406642ef27f447e72a0"
+          }
+        },
+        {
+          "client_id": "830378510376-grrjjtuhfp3mt4hea05ht52vbm37ba7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2aHJj0KclemPJo-aww-cphpmzOYt0_0Q"
+        },
+        {
+          "current_key": "AIzaSyDBOYrTY_5K8jegpbT3k3bpcGD69CqsmX0"
+        },
+        {
+          "current_key": "AIzaSyBZ30Rx-kucg2tea2brKolEXiF1iPIWAA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830378510376-grrjjtuhfp3mt4hea05ht52vbm37ba7v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830378510376:android:2ef725c824046b9911cd1d",
+        "android_client_info": {
+          "package_name": "com.example.mycar_admin_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830378510376-grrjjtuhfp3mt4hea05ht52vbm37ba7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2aHJj0KclemPJo-aww-cphpmzOYt0_0Q"
+        },
+        {
+          "current_key": "AIzaSyDBOYrTY_5K8jegpbT3k3bpcGD69CqsmX0"
+        },
+        {
+          "current_key": "AIzaSyBZ30Rx-kucg2tea2brKolEXiF1iPIWAA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830378510376-grrjjtuhfp3mt4hea05ht52vbm37ba7v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830378510376:android:b0b09ca85e656bb511cd1d",
+        "android_client_info": {
+          "package_name": "com.example.mycar_driver_and_user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830378510376-grrjjtuhfp3mt4hea05ht52vbm37ba7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2aHJj0KclemPJo-aww-cphpmzOYt0_0Q"
+        },
+        {
+          "current_key": "AIzaSyDBOYrTY_5K8jegpbT3k3bpcGD69CqsmX0"
+        },
+        {
+          "current_key": "AIzaSyBZ30Rx-kucg2tea2brKolEXiF1iPIWAA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830378510376-grrjjtuhfp3mt4hea05ht52vbm37ba7v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830378510376:android:eb4db4a317a306b411cd1d",
+        "android_client_info": {
+          "package_name": "com.example.parth_portfolio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830378510376-grrjjtuhfp3mt4hea05ht52vbm37ba7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2aHJj0KclemPJo-aww-cphpmzOYt0_0Q"
+        },
+        {
+          "current_key": "AIzaSyDBOYrTY_5K8jegpbT3k3bpcGD69CqsmX0"
+        },
+        {
+          "current_key": "AIzaSyBZ30Rx-kucg2tea2brKolEXiF1iPIWAA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830378510376-grrjjtuhfp3mt4hea05ht52vbm37ba7v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
