@@ -18,13 +18,14 @@ class CustomTxtBtn extends StatelessWidget {
     return InkWell(
       onTap: onTap,
       child: Container(
-        padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+        padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
         decoration: BoxDecoration(
           color: color,
-          borderRadius: BorderRadius.circular(8),
+          borderRadius: BorderRadius.circular(6),
         ),
         child: Text(
           title,
+          textAlign: TextAlign.center,
           style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                 color: titleColor,
                 fontWeight: FontWeight.bold,

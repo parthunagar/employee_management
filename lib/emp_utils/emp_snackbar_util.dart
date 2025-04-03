@@ -9,7 +9,8 @@ class EmpSnackbarUtil {
     ));
   }
 
-  static showSnackBarWithAction(context, msg, {void Function()? onTap}) {
+  static showSnackBarWithAction(context, msg,
+      {void Function()? onTap, bool showUndo = true}) {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         duration: Duration(seconds: 4),
@@ -24,20 +25,20 @@ class EmpSnackbarUtil {
                     fontWeight: FontWeight.w400,
                   ),
             ),
-            InkWell(
-              onTap: onTap,
-              child: Text(
-                'Undo',
-                style: Theme.of(context).textTheme.bodyMedium!.copyWith(
-                      color: EmpColors.primary,
-                      fontSize: 15,
-                      fontWeight: FontWeight.w400,
-                    ),
+            if (showUndo)
+              InkWell(
+                onTap: onTap,
+                child: Text(
+                  'Undo',
+                  style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+                        color: EmpColors.primary,
+                        fontSize: 15,
+                        fontWeight: FontWeight.w400,
+                      ),
+                ),
               ),
-            ),
           ],
         ),
-        
       ),
     );
   }

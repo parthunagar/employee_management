@@ -9,6 +9,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/foundation.dart' as f;
 // import 'dart:io' show Platform;
 // ignore: unused_element
+//add site into firebase.json file ["site": "empmanagement"]
+//create new site in firebase console [inside Hosting portion]
+//firebase web app version : firebase deploy --only hosting:empmanagement
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -19,7 +19,7 @@ class EmpInputTextField extends StatefulWidget {
   int? minLines;
   bool? showLableField;
   List<TextInputFormatter>? inputFormatters;
-  Widget? suffix;
+  Widget? suffix,suffixIcon;
   bool? readOnly;
   bool? showMendatoryStar;
   Color? fillColor;
@@ -49,6 +49,7 @@ class EmpInputTextField extends StatefulWidget {
     this.minLines,
     this.showLableField = true,
     this.suffix,
+    this.suffixIcon,
     this.readOnly = false,
     this.showMendatoryStar,
     this.fillColor,
@@ -113,6 +114,7 @@ class EmpInputTextFieldState extends State<EmpInputTextField> {
                 fontWeight: FontWeight.w500,
               ),
           suffix: widget.suffix,
+          suffixIcon: widget.suffixIcon,
           prefixIcon: Padding(
             padding: const EdgeInsets.only(left: 14, right: 8),
             child: widget.prefixIcon,
